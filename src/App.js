@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import ShowPosts from './news';
+import ShowWeather from './weather';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="row">
+        <div className="header">
+          <h3>Willkommen!</h3>
+          <p>
+            Aktuelle Neuigkeiten für Dich:
+          </p>
+        </div>
+        <div className='weather-container'>
+          <ShowWeather></ShowWeather>
+        </div>
+      </div>
+      <div className='posts-container'>
+        <ShowPosts></ShowPosts>
+      </div>
     </div>
   );
 }

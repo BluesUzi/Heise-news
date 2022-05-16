@@ -1,0 +1,35 @@
+
+.post-title-container{
+    text-align: left;
+    font-size: 30px;
+    margin: 5px 0px 5px 0px;
+}
+.post-synopsis-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 16px;
+    margin: 5px 0px 5px 0px;
+}
+.post-image-container{
+    padding-bottom: 20px;
+    width: 100%;
+    height: auto;
+    flex: 1;
+}
+.post-image-container img {
+    max-width: 100%;
+    height: auto;
+}
+.post-pubDate-container{
+    font-size: 12px;
+    font-weight: bold;
+}
+.post-author-container{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.post-content-container{
+    padding-top: 20px;
+}
